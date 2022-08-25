@@ -14,7 +14,7 @@
 import Fruit from "~/components/Fruit.vue";
 export default {
   components: {
-    Fruit: Fruit,
+    Fruit
   },
   data() {
     return {
