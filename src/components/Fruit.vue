@@ -1,5 +1,5 @@
 <template>
-  {{ name }}
+  <li>{{ name }}?!</li>
 </template>
 
 <script>
