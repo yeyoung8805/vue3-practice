@@ -26,9 +26,14 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 h1 {
   font-size: 50px;
   color: royalblue;
+}
+ul {
+  li {
+    font-size: 40px;
+  }
 }
 </style>
