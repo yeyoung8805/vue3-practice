@@ -4,9 +4,9 @@
   </h1>
   <div v-if="count > 4">4보다 큽니다!</div>
   <ul>
-    <hello v-for="fruit in fruits" :key="fruit" :name="fruit">
+    <Fruit v-for="fruit in fruits" :key="fruit" :name="fruit">
       {{ fruit }}
-    </hello>
+    </Fruit>
   </ul>
 </template>
 
@@ -14,7 +14,7 @@
 import Fruit from "~/components/Fruit.vue";
 export default {
   components: {
-    hello: Fruit,
+    Fruit: Fruit,
   },
   data() {
     return {
