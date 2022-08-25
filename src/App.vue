@@ -2,6 +2,7 @@
   <h1 @click="increase()">
     {{ count }}
   </h1>
+  <div>4보다 큽니다!</div>
 </template>
 
 <script>
