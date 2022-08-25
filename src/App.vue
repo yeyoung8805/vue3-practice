@@ -4,14 +4,18 @@
   </h1>
   <div v-if="count > 4">4보다 큽니다!</div>
   <ul>
-    <li v-for="fruit in fruits" :key="fruit">
+    <hello v-for="fruit in fruits" :key="fruit" :name="fruit">
       {{ fruit }}
-    </li>
+    </hello>
   </ul>
 </template>
 
 <script>
+import Fruit from "~/components/Fruit.vue";
 export default {
+  components: {
+    hello: Fruit,
+  },
   data() {
     return {
       count: 0,
